@@ -269,6 +269,8 @@ export function SleepChart({
   const xAxisOptions = [
     {
       type: "time" as const,
+      min: dataExtentStart,
+      max: dataExtentEnd,
       axisLabel: {
         color: mutedColor,
         formatter: (value: string | number) =>
@@ -284,6 +286,8 @@ export function SleepChart({
       type: "time" as const,
       position: "bottom" as const,
       offset: 28,
+      min: dataExtentStart,
+      max: dataExtentEnd,
       axisLine: { show: false },
       axisTick: { show: true },
       splitLine: { show: false },

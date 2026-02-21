@@ -90,6 +90,8 @@ export function SleepDurationChart({
     xAxis: [
       {
         type: "time",
+        min: dataExtent.start,
+        max: dataExtent.end,
         axisLabel: {
           color: mutedColor,
           formatter: (value: string | number) =>
@@ -101,6 +103,8 @@ export function SleepDurationChart({
         type: "time",
         position: "bottom",
         offset: 28,
+        min: dataExtent.start,
+        max: dataExtent.end,
         axisLine: { show: false },
         axisTick: { show: true },
         splitLine: { show: false },

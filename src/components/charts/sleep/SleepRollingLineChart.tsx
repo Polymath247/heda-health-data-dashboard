@@ -139,14 +139,14 @@ export function SleepRollingLineChart({
       : null;
 
   const rollingLabel = t("charts.rollingLabel", { count: rollingWindowDays });
-  const rangeStart = points[0].date;
-  const rangeEnd = points[points.length - 1].date;
-  const dataExtentStart = rangeStart.getTime();
-  const dataExtentEnd = rangeEnd.getTime();
+  const dataRangeStart = new Date(sortedData[0].date);
+  const dataRangeEnd = new Date(sortedData[sortedData.length - 1].date);
+  const dataExtentStart = dataRangeStart.getTime();
+  const dataExtentEnd = dataRangeEnd.getTime();
   const { markLineData, markAreaData } = buildEventMarks(
     events,
-    rangeStart,
-    rangeEnd,
+    dataRangeStart,
+    dataRangeEnd,
     labelColor,
   );
 
@@ -164,10 +164,10 @@ export function SleepRollingLineChart({
     if (range === "custom") {
       return customRange
         ? { start: customRange.start, end: customRange.end }
-        : { start: points[0].date, end: points[points.length - 1].date };
+        : { start: dataRangeStart, end: dataRangeEnd };
     }
     if (range === "all") {
-      return { start: points[0].date, end: points[points.length - 1].date };
+      return { start: dataRangeStart, end: dataRangeEnd };
     }
     const maxDate = new Date(sortedData[sortedData.length - 1].date);
     const start = new Date(maxDate.getTime());
@@ -214,6 +214,8 @@ export function SleepRollingLineChart({
     xAxis: [
       {
         type: "time",
+        min: dataExtentStart,
+        max: dataExtentEnd,
         axisLabel: {
           color: mutedColor,
           formatter: (value: string | number) => {
@@ -231,6 +233,8 @@ export function SleepRollingLineChart({
         type: "time",
         position: "bottom",
         offset: 28,
+        min: dataExtentStart,
+        max: dataExtentEnd,
         axisLine: { show: false },
         axisTick: { show: true },
         splitLine: { show: false },

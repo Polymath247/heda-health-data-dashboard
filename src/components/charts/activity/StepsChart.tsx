@@ -204,6 +204,8 @@ export function StepsChart({
     xAxis: [
       {
         type: "time",
+        min: dataExtentStart,
+        max: dataExtentEnd,
         axisLabel: {
           color: mutedColor,
           formatter: (value: string | number) => {
@@ -221,6 +223,8 @@ export function StepsChart({
         type: "time",
         position: "bottom",
         offset: 28,
+        min: dataExtentStart,
+        max: dataExtentEnd,
         axisLine: { show: false },
         axisTick: { show: true },
         splitLine: { show: false },
